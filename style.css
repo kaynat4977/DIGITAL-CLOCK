@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(125deg, rgb(68, 36, 42),rgb(145, 93, 101));
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 202, 190);
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 80px;
+    color: rgb(207, 197, 183);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all 0.3 ease;
+}
+
+h1:hover{
+    border-bottom: 3px solid whitesmoke;
+    padding-bottom: 10px;
+}
